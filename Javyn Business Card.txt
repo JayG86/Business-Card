@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="card">
+            <img class="avatar" src="javyn.jpg">
+            <div >
+                <h3>Javyn M Gallien</h3>
+                <p>Frontend Developer</p>
+                <h4>Dallas, Texas</h4>
+            </div>
+        </div>
+    </body>
+</html>
+
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #606c38;
+    color: #fb8500;
+    border-bottom: 6px solid #023e8a;
+    border-left: 6px solid #ffb703;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
